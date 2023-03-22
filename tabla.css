@@ -1,0 +1,41 @@
+table{ 
+    border-collapse: collapse;
+    height: 200px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border: solid  rgb(36, 35, 35);
+    }
+
+thead{
+    height: 15%;
+    background-color: silver; 
+    color: rgb(7, 6, 6);
+    margin-top: 50%;
+}
+
+td,th{
+    border: solid 2px black;
+
+}
+
+tr > td:hover{
+    background-color: rgb(163, 163, 145);
+}
+
+caption{
+    color: rgb(5, 5, 5);
+    margin-inline:inherit;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+
+    
+}
+
+tfoot{
+    height: 15%;
+    background-color: silver;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold
+}
